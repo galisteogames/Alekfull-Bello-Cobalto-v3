@@ -1,0 +1,103 @@
+<theme>
+  <formatVersion>4</formatVersion>
+  <feature supported="carousel">
+  <view name="system">
+    <carousel name="systemcarousel">
+      <type>horizontal</type>
+      <pos>0 0.15</pos>
+      <size>1 1</size>
+      <color>ffffff00</color>
+      <logoScale>1.2</logoScale>
+      <logoSize>0.36 0.36</logoSize>
+      <maxLogoCount>6</maxLogoCount>         <zIndex>43</zIndex>
+	  <defaultTransition>instant</defaultTransition>	
+    </carousel>
+    
+   <text name="systemInfo">
+    <pos>0.086 0.082</pos>
+         <backgroundColor>00000000</backgroundColor>
+         <color>ade7ef</color>
+     <alignment>left</alignment>
+         <fontPath>./../_inc/fonts/SF Slapstick Comic Bold.ttf</fontPath>
+   <fontSize>0.03</fontSize>
+      </text>
+
+<image name="art" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         </image>    
+    
+  <image name="logo">
+    <path>./../assets/logos1/$system.png</path>
+  </image>
+    
+	     <image name="bg" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./../assets/cob222.png</path>
+         <zIndex>40</zIndex>
+      </image>
+	
+     <image name="background" extra="true" region="Português">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./../assets/overlay2-pt.png</path>
+         <zIndex>41</zIndex>
+      </image>
+    
+          <image name="background" extra="true" region="English">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./../assets/overlay2-en.png</path>
+         <zIndex>41</zIndex>
+      </image>
+    
+          <image name="background" extra="true" region="Français">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./../assets/overlay2-fr.png</path>
+         <zIndex>41</zIndex>
+      </image>
+    
+          <image name="background" extra="true" region="Español">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./../assets/overlay2-es.png</path>
+         <zIndex>41</zIndex>
+      </image>
+    
+    <image name="console" extra="true">
+      <pos>2 2</pos>
+      <maxSize>0.01 0.01</maxSize>
+      <origin>1 1</origin>
+    </image>
+    <image name="consolegame" extra="true">
+      <pos>2 2</pos>
+      <maxSize>0.01 0.01</maxSize>
+      <origin>1 1</origin>
+    </image>
+    <image name="controller" extra="true">
+      <pos>2 2</pos>
+      <maxSize>0.01 0.01</maxSize>
+      <origin>1 1</origin>
+    </image>
+    <text name="info1, info2, info3, info4, info5, info6, info7, info8, info9, info10, info11, info12" extra="true">
+      <fontSize>0.01</fontSize>
+      <size>0.01 0.01</size>
+      <pos>2 2</pos>
+    </text>
+	
+	<helpsystem name="help">
+		 <fontPath>./../_inc/fonts/SF Slapstick Comic Bold.ttf</fontPath>
+		 <fontSize>0.023</fontSize>
+		<pos>0.05 0.94</pos>
+	</helpsystem>
+  </view>
+  </feature>  
+</theme>

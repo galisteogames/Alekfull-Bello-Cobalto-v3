@@ -1,0 +1,66 @@
+<theme>
+<formatVersion>4</formatVersion>
+
+
+<view name="system">
+      <carousel name="systemcarousel">
+	  <type>vertical</type>
+        <pos>0.62 0.552</pos>
+        <size>0.35 0.2</size>
+        <logoScale>1</logoScale>
+        <logoSize>0.223 0.223</logoSize>
+        <color>00000000</color>
+        <maxLogoCount>1</maxLogoCount>
+		<zIndex>45</zIndex>
+        <defaultTransition>instant</defaultTransition>
+      </carousel>
+
+      <image name="art" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+  
+      </image>
+	  
+	<image name="logo">
+		<path>./../assets/logos/$system.png</path>
+	</image>
+	  
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./../assets/bg4.png</path>
+         <zIndex>41</zIndex>
+      </image>
+	  
+      <text name="systemInfo">
+		<pos>0.106 0.10</pos>
+         <backgroundColor>00000000</backgroundColor>
+         <color>ade7ef</color>
+		 <alignment>left</alignment>
+         <fontPath>./../_inc/fonts/SF Slapstick Comic Bold.ttf</fontPath>
+	 <fontSize>0.019</fontSize>
+      </text>
+	  
+<text name="info1" extra="true">
+   		<fontPath>./../assets/Roboto-Medium.ttf</fontPath>
+        <color>d6d6d6</color>
+        <alignment>left</alignment>
+        <fontSize>0.023</fontSize>
+        <lineSpacing>1</lineSpacing>
+		<size>0.351 0</size>
+		<pos>0.62 0.782</pos>
+		<zIndex>42</zIndex>
+      </text>
+
+      <helpsystem name="help">
+         <textColor>747475</textColor>
+         <iconColor>77777750</iconColor>
+		 <pos>0.54 0.938</pos>
+		 <fontPath>./../_inc/fonts/SF Slapstick Comic Bold.ttf</fontPath>
+		 <fontSize>0.023</fontSize>
+      </helpsystem>	 
+</view>
+
+</theme>

@@ -1,0 +1,81 @@
+<theme>
+<formatVersion>4</formatVersion>
+
+
+<view name="system">
+      <carousel name="systemcarousel">
+        <pos>-0.48 0.18</pos>
+		<origin>0 0</origin>
+        <size>1.5 1</size>
+        <logoScale>1.7</logoScale>
+        <logoSize>0.20 0.20</logoSize>
+        <color>00000000</color>
+        <maxLogoCount>9</maxLogoCount>
+ 		<logoAlignment>top</logoAlignment>
+		<zIndex>80</zIndex>
+		<defaultTransition>instant</defaultTransition>			
+      </carousel>
+
+      <image name="art" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+        </image>	  
+	  
+	<image name="logo">
+		<path>./../assets/logos2/$system.png</path>
+	</image>
+	  
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./../assets/overlay.png</path>
+         <zIndex>41</zIndex>
+      </image>
+	   
+
+      <text name="user" extra="true"><!-- Username-->
+         <text>Galisteo</text>
+         <pos>0.66 0.070</pos>
+         <color>FFFFFF</color>
+         <fontPath>./../_inc/fonts/SF Slapstick Comic Bold.ttf</fontPath>
+	     <fontSize>0.0350</fontSize>
+         <alignment>left</alignment>
+         <zIndex>41</zIndex>        
+      </text>	  
+	  
+      <helpsystem name="help">
+         <textColor>FFFFFF</textColor>
+         <iconColor>FFFFFF</iconColor>
+		 <pos>0.06 0.955</pos>
+		 <fontPath>./../_inc/fonts/SF Slapstick Comic Bold.ttf</fontPath>
+		 <fontSize>0.023</fontSize>
+      </helpsystem>	 
+	  
+	    <text name="info2" extra="true">
+	     <alignment>left</alignment> 
+	     <pos>0.39 0.46</pos>
+	     <color>FFFFFF</color>
+         <fontPath>./../_inc/fonts/SF Slapstick Comic Bold.ttf</fontPath>
+	     <fontSize>0.0400</fontSize>     
+		 <zIndex>45</zIndex>        
+      </text>
+
+	   <text name="info1" extra="true">
+	     <pos>0 0</pos>
+	     <fontSize>0</fontSize>     
+		 <zIndex>0</zIndex>        
+      </text>
+	  
+      <text name="systemInfo">
+         <alignment>left</alignment>
+         <pos>0.18 0.070</pos>
+         <backgroundColor>00000000</backgroundColor>
+         <color>FFFFFF</color>
+         <fontPath>./../_inc/fonts/SF Slapstick Comic Bold.ttf</fontPath>
+	     <fontSize>0.0250</fontSize>
+         <zIndex>42</zIndex>	              
+      </text>	  
+</view>
+</theme>

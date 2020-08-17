@@ -1,0 +1,108 @@
+<theme>
+<formatVersion>4</formatVersion>
+
+
+<view name="system">
+      <carousel name="systemcarousel">
+        <type>horizontal</type>
+        <pos>0.02 -0.08</pos>
+        <size>0.96 1</size>
+        <logoScale>1.05</logoScale>
+        <logoSize>0.24 0.24</logoSize>
+        <color>00000000</color>
+        <maxLogoCount>5</maxLogoCount>
+        <zIndex>42</zIndex>
+        <logoAlignment>bottom</logoAlignment>
+		<defaultTransition>instant</defaultTransition>			
+      </carousel>
+
+      <image name="art" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+        </image>	  
+	  
+	<image name="logo">
+		<path>./../assets/logos2/$system.png</path>
+	</image>
+
+
+      <image name="bg1" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./../assets/ovd1.png</path>
+         <zIndex>41</zIndex>
+      </image>
+	   
+     <image name="background" extra="true" region="Português">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./../assets/overlay2-pt.png</path>
+         <zIndex>41</zIndex>
+      </image>
+    
+          <image name="background" extra="true" region="English">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./../assets/overlay2-en.png</path>
+         <zIndex>41</zIndex>
+      </image>
+    
+          <image name="background" extra="true" region="Français">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./../assets/overlay2-fr.png</path>
+         <zIndex>41</zIndex>
+      </image>
+    
+          <image name="background" extra="true" region="Español">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./../assets/overlay2-es.png</path>
+         <zIndex>41</zIndex>
+      </image>
+
+	   
+      <helpsystem name="help">
+         <textColor>FFFFFF</textColor>
+         <iconColor>FFFFFF</iconColor>
+		 <pos>0.70 0.972</pos>
+		 <fontPath>./../_inc/fonts/SF Slapstick Comic Bold.ttf</fontPath>
+		 <fontSize>0.0175</fontSize>
+      </helpsystem>	 
+	  
+ <text name="info1, info, info3, info4, info6, info7, info8, info9, info10, info11, info12" extra="true">
+      <fontSize>0.01</fontSize>
+      <size>0.01 0.01</size>
+      <pos>2 2</pos>
+    </text>
+	
+		 <text name="info2" extra="true">
+         <fontPath>./../assets/Roboto-Medium.ttf</fontPath>
+         <color>cfd0d4</color>
+         <alignment>left</alignment>
+         <fontSize>0.069</fontSize>
+         <lineSpacing>1</lineSpacing>
+         <size>0.551 0.065</size>
+         <pos>0.06 0.436</pos>
+         <zIndex>42</zIndex>
+      </text>
+	
+	
+	  
+      <text name="systemInfo">
+         <alignment>left</alignment>
+         <pos>0.06 0.526</pos>
+         <backgroundColor>00000000</backgroundColor>
+         <color>c4cbcc</color>
+         <fontPath>./../assets/Roboto-Medium.ttf</fontPath>
+	     <fontSize>0.02</fontSize>
+         <zIndex>42</zIndex>	              
+      </text>	  
+</view>
+</theme>

@@ -1,0 +1,79 @@
+<theme>
+<formatVersion>4</formatVersion>
+
+
+<view name="system">
+      <carousel name="systemcarousel">
+        <type>horizontal</type>
+        <pos>-0.741 -0.02</pos>
+        <size>1.8 1</size>
+        <logoScale>1</logoScale>
+        <logoSize>0.18 0.18</logoSize>
+        <color>00000000</color>
+        <maxLogoCount>17</maxLogoCount>
+        <zIndex>42</zIndex>
+        <logoAlignment>bottom</logoAlignment>
+		<defaultTransition>instant</defaultTransition>			
+      </carousel>
+
+      <image name="art" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+        </image>	  
+	  
+	<image name="logo">
+		<path>./../assets/logos2/$system.png</path>
+	</image>
+
+
+      <image name="background" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./../assets/eminence2.png</path>
+         <zIndex>41</zIndex>
+      </image>
+	   
+	  
+      <helpsystem name="help">
+         <textColor>FFFFFF</textColor>
+         <iconColor>FFFFFF</iconColor>
+		 <pos>0.70 0.972</pos>
+		 <fontPath>./../_inc/fonts/SF Slapstick Comic Bold.ttf</fontPath>
+		 <fontSize>0.0175</fontSize>
+      </helpsystem>	 
+	  
+ <text name="info1" extra="true">
+   		<fontPath>./../assets/Roboto-Medium.ttf</fontPath>
+         <color>c4cbcc</color>
+         <alignment>left</alignment>
+         <fontSize>0.027</fontSize>
+         <lineSpacing>0.95</lineSpacing>
+         <size>0.351 0</size>
+         <pos>0.02 0.486</pos>
+         <zIndex>42</zIndex>
+		</text>
+		   		
+      <text name="info2" extra="true">
+         <fontPath>./../assets/Roboto-Medium.ttf</fontPath>
+         <color>ffdb39</color>
+         <alignment>left</alignment>
+         <fontSize>0.069</fontSize>
+         <lineSpacing>1</lineSpacing>
+         <size>0.351 0.065</size>
+         <pos>0.02 0.406</pos>
+         <zIndex>42</zIndex>
+      </text>
+	  
+      <text name="systemInfo">
+         <alignment>left</alignment>
+         <pos>0.02 0.626</pos>
+         <backgroundColor>00000000</backgroundColor>
+         <color>c4cbcc</color>
+         <fontPath>./../assets/Roboto-Medium.ttf</fontPath>
+	     <fontSize>0.02</fontSize>
+         <zIndex>42</zIndex>	              
+      </text>	  
+</view>
+</theme>
