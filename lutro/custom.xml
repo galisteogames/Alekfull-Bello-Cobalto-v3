@@ -1,0 +1,25 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true" region="Português">
+			<text>Lutro é uma engine lua experimental baseada na arquitetura libretro usando a LÖVE API como referência.</text>
+		</text>
+		
+				<text name="info1" extra="true" region="English">
+			<text>Lutro is an experimental lua game framework for libretro following the LÖVE API.</text>
+		</text>
+		
+				<text name="info1" extra="true" region="Español">
+			<text>Lutro es un motor lua experimental basado en la arquitectura libretro usando la LÖVE API como referencia.</text>
+		</text>
+		
+				<text name="info1" extra="true" region="Français">
+			<text>Lutro est un framework de jeu lua expérimental pour libretro suivant l'API LÖVE.</text>
+		</text>
+		
+		<text name="info2" extra="true">
+			<text>LUTRO</text>
+		</text>
+	</view>
+</theme>

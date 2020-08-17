@@ -1,0 +1,41 @@
+<theme>
+    <formatVersion>4</formatVersion>
+	<include subset="colorset" name="1-Galisteo BG">./colorsets/galisteo.xml</include>
+	<include subset="colorset" name="2-Alekfull BG">./colorsets/alekfull.xml</include>
+	
+	<include subset="iconset" name="1-SNES ALT">./iconsets/snesalt.xml</include>
+	<include subset="iconset" name="2-standard icons">./iconsets/default.xml</include>
+	<include subset="iconset" name="3-SNES">./iconsets/snes.xml</include>
+	<include subset="iconset" name="4-XBox">./iconsets/xbox.xml</include>
+	<include subset="iconset" name="5-PSX">./iconsets/psx.xml</include>
+	<include subset="iconset" name="6-ARCADE">./iconsets/arcade.xml</include>
+	
+	<include subset="systemview" name="01-Bello Logo View">./systemview/3.xml</include>
+	<include subset="systemview" name="02-Bello View">./systemview/2.xml</include>
+	<include subset="systemview" name="03-Eminence">./systemview/1.xml</include>
+	<include subset="systemview" name="04-Bello Diagonal">./systemview/4.xml</include>
+	<include subset="systemview" name="05-Bello PS4">./systemview/5.xml</include>
+	<include subset="systemview" name="06-Bello NX (Description)">./systemview/13.xml</include>
+	<include subset="systemview" name="07-Bello Cobalto NX">./systemview/14.xml</include>
+	<include subset="systemview" name="08-Wall">./systemview/17.xml</include>
+	<include subset="systemview" name="09-Wall (Grid)">./systemview/15.xml</include>
+	<include subset="systemview" name="10-Eminence 2">./systemview/16.xml</include>
+	<include subset="systemview" name="11-Roulette Wheel (Right)">./systemview/6.xml</include>
+	<include subset="systemview" name="12-Roulette Wheel (Left)">./systemview/12.xml</include>
+	<include subset="systemview" name="13-Vertical Wheel (Right)">./systemview/7.xml</include>
+	<include subset="systemview" name="14-Vertical Wheel (Center)">./systemview/8.xml</include>
+	<include subset="systemview" name="15-Horizontal Wheel (Center)">./systemview/9.xml</include>
+	<include subset="systemview" name="16-Horizontal Wheel (Down)">./systemview/10.xml</include>
+	<include subset="systemview" name="17-Bello Cobalto (Down)">./systemview/11.xml</include>
+	<include subset="systemview" name="18-Bello Cobalto (Down2)">./systemview/18.xml</include>	
+	<include subset="systemview" name="19-Simple">./systemview/19.xml</include>
+	<include subset="systemview" name="20-Rounded">./systemview/20.xml</include>
+
+	
+	<include subset="gamelistview" name="1-Default Detailed">./gamelistviews/detailed1.xml</include>
+	<include subset="gamelistview" name="2-Detailed">./gamelistviews/detailed.xml</include>
+	<include subset="gamelistview" name="3-Default">./gamelistviews/default.xml</include>
+	<include subset="gamelistview" name="4-Default 3 Columns">./gamelistviews/3col.xml</include>
+	<include subset="gamelistview" name="5-Default 2 Columns">./gamelistviews/2col.xml</include>
+	
+</theme>

@@ -1,0 +1,81 @@
+<!--
+ALEKFULL-BELLO theme by fagnerpc
+facebook.com/alekfull.arcade
+
+Tema ALEKFULL-BELLO COBALTO, produzido em parceria com Galisteo e Fagnerpc para uso nas imagens Galisteo Cobalto v3, Recalbox 6.1 DragonBlaze.
+
+Inspired by Kodi interface
+Logos by Dwayne Hurst (aka Hursty), Emulga and Galisteo
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>4</formatVersion>
+   <include>./config.xml</include>
+    <include>./$system/custom.xml</include>
+   
+   
+<feature supported="carousel">
+   <view name="system">
+	<sound name="bgsound">
+         <path>./assets/sounds/$system.ogg</path>
+	</sound>	  
+   </view>
+</feature>
+
+   <view name="menu">
+	<menuText name="menufooter">
+		<fontPath>./_inc/fonts/Homizio.ttf</fontPath>
+		<fontSize>0.025</fontSize>
+		<color>c0e7ed</color>
+	</menuText>
+	<menuText name="menutext"> 
+		<fontPath>./_inc/fonts/light.ttf</fontPath>
+		<fontSize>0.03</fontSize>
+		<color>FFFFFF</color>
+		<separatorColor>490e6c</separatorColor>
+		<selectorColor>00000050</selectorColor>
+		<selectedColor>2291bf</selectedColor>
+	</menuText>
+	<menuTextSmall name="menutextsmall">
+		<fontPath>./_inc/fonts/Homizio.ttf</fontPath>
+		<fontSize>0.028</fontSize>
+		<color>FFFFFF</color>
+	</menuTextSmall>
+	<menuText name="menutitle">
+		<fontPath>./_inc/fonts/Homizio.ttf</fontPath>
+		<fontSize>0.04</fontSize>
+		<color>FFFFFF</color>
+	</menuText>
+	<menuBackground name="menubg">
+	    <color>490e6c</color>
+		<path>./_inc/back.png</path>
+		<fadePath>./_inc/fade.png</fadePath>
+	</menuBackground>
+	
+	<menuIcons name="menuicons">
+        <iconKodi>./_inc/menu_icons/Kodi.png</iconKodi>
+        <iconSystem>./_inc/menu_icons/System.png</iconSystem>
+        <iconUpdates>./_inc/menu_icons/Updates.png</iconUpdates>
+        <iconGames>./_inc/menu_icons/Games.png</iconGames>
+        <iconControllers>./_inc/menu_icons/Controllers.png</iconControllers>
+        <iconUI>./_inc/menu_icons/UI.png</iconUI>
+        <iconSound>./_inc/menu_icons/Sound.png</iconSound>
+        <iconNetwork>./_inc/menu_icons/Network.png</iconNetwork>
+        <iconScraper>./_inc/menu_icons/Scraper.png</iconScraper>
+        <iconAdvanced>./_inc/menu_icons/Advanced.png</iconAdvanced>
+        <iconQuit>./_inc/menu_icons/Quit.png</iconQuit>
+        <iconRestart>./_inc/menu_icons/Restart.png</iconRestart>
+        <iconShutdown>./_inc/menu_icons/Shutdown.png</iconShutdown>
+        <iconFastShutdown>./_inc/menu_icons/Fastshutdown.png</iconFastShutdown>
+	</menuIcons>
+		  
+	<helpsystem name="help">
+         <fontPath>./_inc/fonts/Homizio.ttf</fontPath>
+         <fontSize>0.022</fontSize>     
+         <pos>0.06 0.955</pos>      
+         <textColor>FFFFFF</textColor>
+	</helpsystem>
+</view> 
+   
+</theme>

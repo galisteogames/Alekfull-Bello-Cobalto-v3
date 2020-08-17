@@ -1,0 +1,26 @@
+<theme>
+	<formatVersion>4</formatVersion>
+
+	<view name="system">
+		<text name="info1" extra="true" region="Português">
+			<text>O Uzebox é um jogo de console de código aberto retro-minimalista, baseado no microcontrolador ATmega644 da Atmel.</text>
+		</text>
+		
+				<text name="info1" extra="true" region="English">
+			<text>The Uzebox is a retro-minimalist open source game console based on Atmel's ATmega644 microcontroller.</text>
+		</text>
+		
+				<text name="info1" extra="true" region="Español">
+			<text>El Uzebox es un juego de consola retro-minimalista de código abierto basado en el microcontrolador ATmega644 de Atmel.</text>
+		</text>
+		
+				<text name="info1" extra="true" region="Français">
+			<text>Uzebox est une console de jeu open source rétro-minimaliste basée sur le microcontrôleur ATmega644 d'Atmel.</text>
+		</text>
+		
+				<text name="info2" extra="true">
+			<text>Uzebox</text>
+		</text>
+	</view>
+
+</theme>
